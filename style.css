@@ -84,7 +84,19 @@ header.simple p {
   color: #4f716c;
   margin: 0;
 }
-
+.gift-header-image {
+    display: block;
+    max-width: 360px;   /* ≈ 40% di una larghezza grande */
+    width: 40%;
+    margin: 20px auto 0 auto;
+    border-radius: 12px;
+}
+@media (max-width: 600px) {
+    .gift-header-image {
+        width: 70%;
+        max-width: 300px;
+    }
+}
 /* Layout */
 main {
   max-width: 900px;

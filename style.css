@@ -110,6 +110,13 @@ section ul {
 section ul li {
   margin: 10px 0;
 }
+section ul li {
+  font-size: 1.05em;
+}
+
+section p {
+  max-width: 750px;
+}
 
 /* Map container */
 .map-container {
